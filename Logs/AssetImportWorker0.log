@@ -15,11 +15,11 @@ C:/Users/vampu/Documents/Unity Projects/AlienRampage
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56138
+63105
 Successfully changed project path to: C:/Users/vampu/Documents/Unity Projects/AlienRampage
 C:/Users/vampu/Documents/Unity Projects/AlienRampage
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.95 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 43.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.002628 seconds.
+Registered in 0.002282 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 91.21 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 46.76 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.649 seconds
+- Completed reload, in  1.648 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002775 seconds.
+Registered in 0.001454 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 74.12 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 44.44 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.190 seconds
+- Completed reload, in  0.822 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -75,46 +75,126 @@ Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Ren
 Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
 Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2619 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 156.5 MB.
-System memory in use after: 154.2 MB.
+Unloading 2622 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.7 MB.
+System memory in use after: 154.4 MB.
 
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3045.
-Total: 4.219700 ms (FindLiveObjects: 0.409900 ms CreateObjectMapping: 0.295800 ms MarkObjects: 2.212900 ms  DeleteObjects: 1.299500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/Player/Movmint.cs
-  artifactKey: Guid(3be36666bd884954cb6bbf2550711eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/Movmint.cs using Guid(3be36666bd884954cb6bbf2550711eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c7d16866d6b4be944fdc31152a57bd') in 0.042788 seconds
-  Import took 0.048008 seconds .
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3049.
+Total: 3.062500 ms (FindLiveObjects: 0.293200 ms CreateObjectMapping: 0.172200 ms MarkObjects: 1.578700 ms  DeleteObjects: 1.017300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002509 seconds.
-  path: Assets/Scripts/Player/Movmint.cs
-  artifactKey: Guid(3be36666bd884954cb6bbf2550711eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/Movmint.cs using Guid(3be36666bd884954cb6bbf2550711eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c7d16866d6b4be944fdc31152a57bd') in 0.002671 seconds
-  Import took 0.006601 seconds .
+  path: Assets/Characters/Player/CharAnimController.controller
+  artifactKey: Guid(1b3f25d7f59599844bee9a8a66401467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Player/CharAnimController.controller using Guid(1b3f25d7f59599844bee9a8a66401467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba9f7d0df42915bfe1e271b78350e70') in 0.065691 seconds
+  Import took 0.069419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.513850 seconds.
+  path: Assets/Characters/Player/PlayerAnimController.controller
+  artifactKey: Guid(1b3f25d7f59599844bee9a8a66401467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Player/PlayerAnimController.controller using Guid(1b3f25d7f59599844bee9a8a66401467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe38c892bd4ef11ff6196eaddfb3808') in 0.017709 seconds
+  Import took 0.021843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.663296 seconds.
+  path: Assets/Characters/Zombie_01/EnemyAnimController.controller
+  artifactKey: Guid(c5ab3314645aa8a48b9fef444dd6e19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/EnemyAnimController.controller using Guid(c5ab3314645aa8a48b9fef444dd6e19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aed38d998fcdcf4ca4fc74daafea032') in 0.015302 seconds
+  Import took 0.018908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.580210 seconds.
+  path: Assets/Characters/Zombie_01/Animations/zombie death.fbx
+  artifactKey: Guid(839f200a19ab8d84aa04c5300a89b39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Animations/zombie death.fbx using Guid(839f200a19ab8d84aa04c5300a89b39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75d72e0eb0ae8ce1cc5182a677dfd27') in 0.051931 seconds
+  Import took 0.055825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.549279 seconds.
+  path: Assets/Characters/Zombie_01/Animations/zombie dying.fbx
+  artifactKey: Guid(8b158349fdb369848b638704676e60a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Animations/zombie dying.fbx using Guid(8b158349fdb369848b638704676e60a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68db3df08c4d71b23e0febfe7f6ce8e0') in 0.014384 seconds
+  Import took 0.018204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.401426 seconds.
+  path: Assets/Characters/Zombie_01/Animations/zombie idle.fbx
+  artifactKey: Guid(342e31565c8724f428005cbf0a52a51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Animations/zombie idle.fbx using Guid(342e31565c8724f428005cbf0a52a51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb4c53b7a72633a3dfc0ebe7dcc6cae') in 0.015442 seconds
+  Import took 0.020269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.108230 seconds.
+  path: Assets/Characters/Zombie_01/Animations/zombie run.fbx
+  artifactKey: Guid(128deb138121a2c469c4fc2ebd0adf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Animations/zombie run.fbx using Guid(128deb138121a2c469c4fc2ebd0adf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c556e5ed61f95645c22b557b6b2a6144') in 0.015868 seconds
+  Import took 0.020455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.545150 seconds.
+  path: Assets/Characters/Zombie_01/Animations/zombie walk.fbx
+  artifactKey: Guid(3b11fe4e390382c42be9d733065f1808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Animations/zombie walk.fbx using Guid(3b11fe4e390382c42be9d733065f1808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa30a1fc5296a3c0e0cc844159af884b') in 0.014943 seconds
+  Import took 0.020070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.256633 seconds.
+  path: Assets/Characters/Zombie_01/Animations/zombie idle.fbx
+  artifactKey: Guid(342e31565c8724f428005cbf0a52a51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Animations/zombie idle.fbx using Guid(342e31565c8724f428005cbf0a52a51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11519565204397807218e13129eda6a') in 0.004808 seconds
+  Import took 0.008822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.941525 seconds.
+  path: Assets/Characters/Zombie_01/Animations/zombie run.fbx
+  artifactKey: Guid(128deb138121a2c469c4fc2ebd0adf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Animations/zombie run.fbx using Guid(128deb138121a2c469c4fc2ebd0adf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5547ac271d3890fc88b3e729f0c1e7d') in 0.005263 seconds
+  Import took 0.009428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.823992 seconds.
+  path: Assets/Characters/Zombie_01/Animations/zombie walk.fbx
+  artifactKey: Guid(3b11fe4e390382c42be9d733065f1808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Animations/zombie walk.fbx using Guid(3b11fe4e390382c42be9d733065f1808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a96b95c933117b2ec07cfcb3c98193') in 0.004695 seconds
+  Import took 0.008272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 236.604410 seconds.
+  path: Assets/Characters/Zombie_01/Textures/enemy_01_initialShadingGroup_Normal.png
+  artifactKey: Guid(35af398d6daf16c418e04344aa54be81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Textures/enemy_01_initialShadingGroup_Normal.png using Guid(35af398d6daf16c418e04344aa54be81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cdff42cbe99fc65bcac8d681164998') in 0.066309 seconds
+  Import took 0.070610 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001561 seconds.
+Registered in 0.001505 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.758 seconds
+- Completed reload, in  0.726 seconds
 Platform modules already initialized, skipping
 Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
 Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
@@ -122,27 +202,43 @@ Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Ren
 Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
 Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2514 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 151.0 MB.
-System memory in use after: 148.6 MB.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.1 MB.
+System memory in use after: 151.8 MB.
 
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3048.
-Total: 3.124600 ms (FindLiveObjects: 0.260000 ms CreateObjectMapping: 0.120600 ms MarkObjects: 1.617400 ms  DeleteObjects: 1.125700 ms)
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3056.
+Total: 2.886600 ms (FindLiveObjects: 0.248500 ms CreateObjectMapping: 0.121300 ms MarkObjects: 1.509400 ms  DeleteObjects: 1.006600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 563.877601 seconds.
-  path: Assets/Scripts/Player/PlayerController.cs
-  artifactKey: Guid(a84be525f98d5dc408214126c4f3337b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/PlayerController.cs using Guid(a84be525f98d5dc408214126c4f3337b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339870650031f29675d5ff62fd150a0b') in 0.010587 seconds
-  Import took 0.017087 seconds .
+  Time since last request: 150.269657 seconds.
+  path: Assets/Scripts/SimpleCameraController.cs
+  artifactKey: Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimpleCameraController.cs using Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f8fdac16313f6ea86f41cdaa3ca1a0') in 0.015138 seconds
+  Import took 0.019138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000837 seconds.
+  path: Assets/Scripts/SimpleCameraController.cs
+  artifactKey: Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimpleCameraController.cs using Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f8fdac16313f6ea86f41cdaa3ca1a0') in 0.002295 seconds
+  Import took 0.005737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.471731 seconds.
+  path: Assets/Scripts/Enemy/EnemyController.cs
+  artifactKey: Guid(24d3935f59f87734a84d8d2dd74f33d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EnemyController.cs using Guid(24d3935f59f87734a84d8d2dd74f33d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ba813134cb59e2244028253da2be15') in 0.002279 seconds
+  Import took 0.005954 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001474 seconds.
+Registered in 0.001553 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -153,7 +249,248 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.767 seconds
+- Completed reload, in  0.737 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.1 MB.
+System memory in use after: 151.8 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3059.
+Total: 3.635900 ms (FindLiveObjects: 0.311500 ms CreateObjectMapping: 0.148100 ms MarkObjects: 1.856100 ms  DeleteObjects: 1.318400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.834920 seconds.
+  path: Assets/Scripts/Enemy/EnemyController.cs
+  artifactKey: Guid(24d3935f59f87734a84d8d2dd74f33d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EnemyController.cs using Guid(24d3935f59f87734a84d8d2dd74f33d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386562dedd84c2d62f3c69ddf4bcd742') in 0.006621 seconds
+  Import took 0.010587 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001821 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.778 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.2 MB.
+System memory in use after: 151.9 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3062.
+Total: 3.043600 ms (FindLiveObjects: 0.238400 ms CreateObjectMapping: 0.104600 ms MarkObjects: 1.619400 ms  DeleteObjects: 1.080100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001474 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.720 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.3 MB.
+System memory in use after: 151.9 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3065.
+Total: 3.506600 ms (FindLiveObjects: 0.275100 ms CreateObjectMapping: 0.156200 ms MarkObjects: 1.819000 ms  DeleteObjects: 1.255400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001628 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.731 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.1 MB.
+System memory in use after: 151.9 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3068.
+Total: 3.101400 ms (FindLiveObjects: 0.261500 ms CreateObjectMapping: 0.117300 ms MarkObjects: 1.585900 ms  DeleteObjects: 1.135800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001559 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.735 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.3 MB.
+System memory in use after: 152.0 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3071.
+Total: 5.289200 ms (FindLiveObjects: 0.330400 ms CreateObjectMapping: 0.154800 ms MarkObjects: 3.013600 ms  DeleteObjects: 1.788400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 640.045488 seconds.
+  path: Assets/AssetStore/MapMagic/Demo/Grass/Meshes/Nettle.FBX
+  artifactKey: Guid(19969c80ad2e2124085be88e62c6d7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Demo/Grass/Meshes/Nettle.FBX using Guid(19969c80ad2e2124085be88e62c6d7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47164293c84c304c1c1612fe54fb5daf') in 0.204619 seconds
+  Import took 0.209995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/AssetStore/MapMagic/Demo/Grass/Meshes/Sedge.FBX
+  artifactKey: Guid(d5a56e328ba5c1347a6856f59f41e3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Demo/Grass/Meshes/Sedge.FBX using Guid(d5a56e328ba5c1347a6856f59f41e3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd38a3f3e3252facd11fafa7f90bf11') in 0.026388 seconds
+  Import took 0.029950 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001552 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.754 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.8 MB.
+System memory in use after: 154.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3121.
+Total: 3.499000 ms (FindLiveObjects: 0.281200 ms CreateObjectMapping: 0.130800 ms MarkObjects: 1.839900 ms  DeleteObjects: 1.246400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001753 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.792 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.8 MB.
+System memory in use after: 154.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3124.
+Total: 3.947700 ms (FindLiveObjects: 0.419100 ms CreateObjectMapping: 0.254800 ms MarkObjects: 1.960400 ms  DeleteObjects: 1.312200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001678 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.745 seconds
 Platform modules already initialized, skipping
 Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
 Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
@@ -163,11 +500,104 @@ Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/
 Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
 Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2515 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 151.0 MB.
-System memory in use after: 148.7 MB.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.8 MB.
+System memory in use after: 154.5 MB.
 
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3052.
-Total: 2.997600 ms (FindLiveObjects: 0.245200 ms CreateObjectMapping: 0.110300 ms MarkObjects: 1.559400 ms  DeleteObjects: 1.081600 ms)
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3127.
+Total: 3.432200 ms (FindLiveObjects: 0.287900 ms CreateObjectMapping: 0.135300 ms MarkObjects: 1.733900 ms  DeleteObjects: 1.274100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001606 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.756 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.7 MB.
+System memory in use after: 154.4 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3130.
+Total: 3.536300 ms (FindLiveObjects: 0.296700 ms CreateObjectMapping: 0.146800 ms MarkObjects: 1.813400 ms  DeleteObjects: 1.278300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001463 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.758 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.8 MB.
+System memory in use after: 154.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3133.
+Total: 4.117300 ms (FindLiveObjects: 0.334800 ms CreateObjectMapping: 0.148400 ms MarkObjects: 2.086400 ms  DeleteObjects: 1.545900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001520 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.747 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.8 MB.
+System memory in use after: 154.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3136.
+Total: 4.212300 ms (FindLiveObjects: 0.329500 ms CreateObjectMapping: 0.495800 ms MarkObjects: 2.012100 ms  DeleteObjects: 1.373900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

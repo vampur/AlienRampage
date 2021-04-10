@@ -15,11 +15,11 @@ C:/Users/vampu/Documents/Unity Projects/AlienRampage
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59823
+52034
 Successfully changed project path to: C:/Users/vampu/Documents/Unity Projects/AlienRampage
 C:/Users/vampu/Documents/Unity Projects/AlienRampage
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.69 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 43.19 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.002381 seconds.
+Registered in 0.002267 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 48.25 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 44.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.740 seconds
+- Completed reload, in  1.629 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001582 seconds.
+Registered in 0.001609 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 48.23 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 44.81 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.870 seconds
+- Completed reload, in  0.833 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -75,54 +75,1614 @@ Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Ren
 Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
 Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2619 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2620 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 156.4 MB.
 System memory in use after: 154.1 MB.
 
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3045.
-Total: 3.293000 ms (FindLiveObjects: 0.241000 ms CreateObjectMapping: 0.112800 ms MarkObjects: 1.654900 ms  DeleteObjects: 1.283500 ms)
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3047.
+Total: 3.067700 ms (FindLiveObjects: 0.302400 ms CreateObjectMapping: 0.194500 ms MarkObjects: 1.558400 ms  DeleteObjects: 1.011300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/MapMagic/SimpleGraph 1.asset
-  artifactKey: Guid(4c4be74470746644f92af86e98cf0caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MapMagic/SimpleGraph 1.asset using Guid(4c4be74470746644f92af86e98cf0caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f79dab9a52fbda0a84041a5d5242b1a') in 0.075667 seconds
-  Import took 0.079608 seconds .
+  path: Assets/Characters/Zombie01
+  artifactKey: Guid(e2cc1cd9af325984786c291e38281232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie01 using Guid(e2cc1cd9af325984786c291e38281232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00bc44c6631c2f097854b1e8cf829c18') in 0.040253 seconds
+  Import took 0.044000 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 101.092100 seconds.
-  path: Assets/Characters/Player/CharAnimController.controller
-  artifactKey: Guid(1b3f25d7f59599844bee9a8a66401467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Player/CharAnimController.controller using Guid(1b3f25d7f59599844bee9a8a66401467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81fe34204653dd5ce6e81e8a1e3b09e') in 0.011636 seconds
-  Import took 0.016096 seconds .
+  Time since last request: 2.379647 seconds.
+  path: Assets/Characters/Zombie_01
+  artifactKey: Guid(e2cc1cd9af325984786c291e38281232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01 using Guid(e2cc1cd9af325984786c291e38281232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bff3449b94ad90e9e0794e91f77231') in 0.011244 seconds
+  Import took 0.015205 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.691086 seconds.
-  path: Assets/Characters/Player/Animations/standing idle.fbx
-  artifactKey: Guid(7a6eec4639f688d4590495fcd1e7f9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Player/Animations/standing idle.fbx using Guid(7a6eec4639f688d4590495fcd1e7f9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718a7b498dbce58c278dd075800beaad') in 0.049219 seconds
-  Import took 0.053136 seconds .
+  Time since last request: 10.713624 seconds.
+  path: Assets/Characters/Zombie_01/Animations
+  artifactKey: Guid(c659550f964862d4a8b8fb8b6d9fad55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Animations using Guid(c659550f964862d4a8b8fb8b6d9fad55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca40297232ace694d926c45c53f711e') in 0.011376 seconds
+  Import took 0.015251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.168767 seconds.
+  path: Assets/Characters/Zombie_01/Textures
+  artifactKey: Guid(f209be80446db644f8c9cd364aa91c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Textures using Guid(f209be80446db644f8c9cd364aa91c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ef714cb2732dc34fd68f9d7614a7ca') in 0.012737 seconds
+  Import took 0.016872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.096034 seconds.
+  path: Assets/Characters/Zombie_01/Enemy01.fbx
+  artifactKey: Guid(2be77a2227183bc478f5a45602c219b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Enemy01.fbx using Guid(2be77a2227183bc478f5a45602c219b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13df2e317f208da42b03d1665ab670dc') in 0.299060 seconds
+  Import took 0.303216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.644516 seconds.
+  path: Assets/Characters/Zombie_01/Enemy01.fbx
+  artifactKey: Guid(2be77a2227183bc478f5a45602c219b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Enemy01.fbx using Guid(2be77a2227183bc478f5a45602c219b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a1e96d3f03e8ca456dc7a6765fcece') in 0.033917 seconds
+  Import took 0.037865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.205636 seconds.
+  path: Assets/Characters/Zombie_01/Materials
+  artifactKey: Guid(deb110563b391dc4b8715bec4360ddaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Materials using Guid(deb110563b391dc4b8715bec4360ddaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3068183d2f34cf1512ea4a96e639ab8a') in 0.005361 seconds
+  Import took 0.009511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.002697 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/TexCh/Blue.png
+  artifactKey: Guid(def8187213bf7e64f9c8c805d9664877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/TexCh/Blue.png using Guid(def8187213bf7e64f9c8c805d9664877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea5c5d61c24105a57b7dd722fad0095') in 0.032362 seconds
+  Import took 0.036296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/NodeLayers/pro/Bot.png
+  artifactKey: Guid(eb7c962aa41642e4babe408f92a3ef48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/NodeLayers/pro/Bot.png using Guid(eb7c962aa41642e4babe408f92a3ef48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3154b93da42133c6379a868e2717b0e5') in 0.012774 seconds
+  Import took 0.016469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Layers/pro/Bot.png
+  artifactKey: Guid(3a323d3cee1f52e458d2f46bfbd562c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Layers/pro/Bot.png using Guid(3a323d3cee1f52e458d2f46bfbd562c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82283e06ab5057a2f1145a73ac4d28b1') in 0.012102 seconds
+  Import took 0.016942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Layers/Bot.png
+  artifactKey: Guid(de8e99b5c41c9cf418998fdb891eb4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Layers/Bot.png using Guid(de8e99b5c41c9cf418998fdb891eb4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8ed133295bb14ed42534093fce24d8') in 0.012275 seconds
+  Import took 0.016225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/Blur.png
+  artifactKey: Guid(e5c4dbc0e965fe84db1c83a406238ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/Blur.png using Guid(e5c4dbc0e965fe84db1c83a406238ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee3e17a4128db1e3c2569393872969b') in 0.013487 seconds
+  Import took 0.017145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/NodeLayers/Bot.png
+  artifactKey: Guid(d43dff7b47e3e4e4b99072ff78252d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/NodeLayers/Bot.png using Guid(d43dff7b47e3e4e4b99072ff78252d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5835c4f1be96b5d8cf778231b659eaa8') in 0.011419 seconds
+  Import took 0.015870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/Blur.png
+  artifactKey: Guid(c9cbee6663425b044a88656503fd297c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/Blur.png using Guid(c9cbee6663425b044a88656503fd297c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172df1714f88067c0c845dc2548710d0') in 0.014341 seconds
+  Import took 0.017838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Layers/BotSquare.png
+  artifactKey: Guid(6776bfa2c490db94d96d089d32ca8974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Layers/BotSquare.png using Guid(6776bfa2c490db94d96d089d32ca8974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4070d5709764caf5da3ea652909c71') in 0.013249 seconds
+  Import took 0.016986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Layers/pro/BotSquare.png
+  artifactKey: Guid(f2dc9b7119b4e674f975dbf5f82d56e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Layers/pro/BotSquare.png using Guid(f2dc9b7119b4e674f975dbf5f82d56e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04553e9c6ce646b6d2f63df285882920') in 0.011807 seconds
+  Import took 0.016125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.173177 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/Bottom.png
+  artifactKey: Guid(62dfbf125708bee45a3fdb8002df6c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/Bottom.png using Guid(62dfbf125708bee45a3fdb8002df6c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6ed2f862d4dd410aa982cb9f422de4') in 0.014549 seconds
+  Import took 0.018537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/BrushObjectsOut.png
+  artifactKey: Guid(3aa80c0ea658ac04c9d76ce75e20101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/BrushObjectsOut.png using Guid(3aa80c0ea658ac04c9d76ce75e20101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29daafebc057731804993c02edfbdb9') in 0.016504 seconds
+  Import took 0.020220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/BrushTexturesIn.png
+  artifactKey: Guid(e8d50c49cfd706749925b675e8f29b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/BrushTexturesIn.png using Guid(e8d50c49cfd706749925b675e8f29b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f6573b4b01ca0584d0c7e853be70d5') in 0.014926 seconds
+  Import took 0.019156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/BrushGrassOut.png
+  artifactKey: Guid(485fa43f897eb604ea44b0e8c6916ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/BrushGrassOut.png using Guid(485fa43f897eb604ea44b0e8c6916ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ba56b73ac60b5eb82890dddf958165') in 0.013013 seconds
+  Import took 0.017372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/BrushTexturesIn.png
+  artifactKey: Guid(23cf7f85fb847e44a8c842de8764291c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/BrushTexturesIn.png using Guid(23cf7f85fb847e44a8c842de8764291c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e756ea2dcdd6f7185dd354a7c5fcd99') in 0.012140 seconds
+  Import took 0.016480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/BrushTreesIn.png
+  artifactKey: Guid(c4cccde0faeb55546879680545c769cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/BrushTreesIn.png using Guid(c4cccde0faeb55546879680545c769cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9691f0916a7c57cb898005d41b56d9') in 0.012635 seconds
+  Import took 0.016726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/BrushHeightOut.png
+  artifactKey: Guid(bfea4468c9dd4a844a4870221295536b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/BrushHeightOut.png using Guid(bfea4468c9dd4a844a4870221295536b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d60013a88ee358e7a8d90531631d4e') in 0.012774 seconds
+  Import took 0.016695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/pro/ButtonActive.png
+  artifactKey: Guid(0e437d509878b9144801515567131715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/pro/ButtonActive.png using Guid(0e437d509878b9144801515567131715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452093f45d7fd012c52dc23a9fbe91d1') in 0.013710 seconds
+  Import took 0.017148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/pro/Bottom.png
+  artifactKey: Guid(f96ef19e468ecc7489c4d802b0fef194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/pro/Bottom.png using Guid(f96ef19e468ecc7489c4d802b0fef194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb0d4f259cbdd6fae25420ad6c0da3a') in 0.011924 seconds
+  Import took 0.015208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/pro/Bottom_pressed.png
+  artifactKey: Guid(3c5552b933055524d98a8225fbf8a6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/pro/Bottom_pressed.png using Guid(3c5552b933055524d98a8225fbf8a6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a08c3ff1807b8ab0dba093baed0d4c8') in 0.013295 seconds
+  Import took 0.017533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/BrushGrassIn.png
+  artifactKey: Guid(7610f790e91b9344c8b134776edbe92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/BrushGrassIn.png using Guid(7610f790e91b9344c8b134776edbe92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e037f2c3a46d000681661da969f968bf') in 0.013780 seconds
+  Import took 0.017423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/BrushTreesOut.png
+  artifactKey: Guid(ebe083f7f8f7da7409b5911dc94fd1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/BrushTreesOut.png using Guid(ebe083f7f8f7da7409b5911dc94fd1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2674285d708de19ea02dad19693e92c') in 0.012966 seconds
+  Import took 0.017023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/pro/Button.png
+  artifactKey: Guid(35b023a05280cf542b40c7e7e67b77d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/pro/Button.png using Guid(35b023a05280cf542b40c7e7e67b77d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fdc9cc25a5d2675b077baebbb68bac') in 0.013047 seconds
+  Import took 0.017500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/BrushGrassIn.png
+  artifactKey: Guid(fc5cf7c63a4ecc948a38f250638f4632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/BrushGrassIn.png using Guid(fc5cf7c63a4ecc948a38f250638f4632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b13f9395362a008fec3065ad039438f') in 0.011579 seconds
+  Import took 0.015953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/BrushHeightOut.png
+  artifactKey: Guid(4dfa4f2eb379d114c91afd49963cb41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/BrushHeightOut.png using Guid(4dfa4f2eb379d114c91afd49963cb41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230af09bd2edaf999f0827d01ec6decf') in 0.012756 seconds
+  Import took 0.016464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/BrushTreesOut.png
+  artifactKey: Guid(315a5d6126154bf4f8fd884a998e43a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/BrushTreesOut.png using Guid(315a5d6126154bf4f8fd884a998e43a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779dae914301a4ecddd7d0400fe07321') in 0.011761 seconds
+  Import took 0.015505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/BrushHeightIn.png
+  artifactKey: Guid(1079587f7d57f294ea2731b4983b0829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/BrushHeightIn.png using Guid(1079587f7d57f294ea2731b4983b0829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc96aa4bce097b23f0ec485a59671d52') in 0.013152 seconds
+  Import took 0.016987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/BrushObjectsIn.png
+  artifactKey: Guid(5bc8054a06302db4c8dc00b6563cadd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/BrushObjectsIn.png using Guid(5bc8054a06302db4c8dc00b6563cadd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367b1d2a171c1241e567191a1edf4ecd') in 0.015716 seconds
+  Import took 0.019966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/BrushTreesIn.png
+  artifactKey: Guid(eec221ae256fc4249ad0d19fd849e48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/BrushTreesIn.png using Guid(eec221ae256fc4249ad0d19fd849e48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b22f5ba79801202e310b404f61af826') in 0.011803 seconds
+  Import took 0.015764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/BrushObjectsOut.png
+  artifactKey: Guid(c1bed628c11325d48bf54697ddcc4e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/BrushObjectsOut.png using Guid(c1bed628c11325d48bf54697ddcc4e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba879a4b15c1087bea6ebe9e6e8a9db') in 0.011931 seconds
+  Import took 0.016134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/BrushTexturesOut.png
+  artifactKey: Guid(f10c96e4135a6444481a665debefc71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/BrushTexturesOut.png using Guid(f10c96e4135a6444481a665debefc71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10da97537a9294696d43e656956efc99') in 0.013526 seconds
+  Import took 0.017570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/BrushHeightIn.png
+  artifactKey: Guid(401193efc17a6174f881e33a42da0d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/BrushHeightIn.png using Guid(401193efc17a6174f881e33a42da0d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2370c6f928a05774ebbe85c03a6b4b4d') in 0.011794 seconds
+  Import took 0.015291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/BrushTexturesOut.png
+  artifactKey: Guid(63275a7da5689934bb5222fbc83721e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/BrushTexturesOut.png using Guid(63275a7da5689934bb5222fbc83721e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99a0e28a6e9746dab74dbdf6dd6df11') in 0.011244 seconds
+  Import took 0.015481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/BrushGrassOut.png
+  artifactKey: Guid(cb796170afec7ba46a2440bf439fac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/BrushGrassOut.png using Guid(cb796170afec7ba46a2440bf439fac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab6ffebe17067c377b0f16d99e7c692') in 0.011669 seconds
+  Import took 0.015190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/BrushObjectsIn.png
+  artifactKey: Guid(d0d253dacc2f4394c9ca3def8e4db10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/BrushObjectsIn.png using Guid(d0d253dacc2f4394c9ca3def8e4db10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3843f3f4a07ce209f2f74695e8dcb02') in 0.011659 seconds
+  Import took 0.015454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/Button.png
+  artifactKey: Guid(4116e303834a14f49bb2c57d4d1594b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/Button.png using Guid(4116e303834a14f49bb2c57d4d1594b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5e82c6d0fff3ba1d6a0845fd21e203') in 0.011428 seconds
+  Import took 0.015948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/Bottom_pressed.png
+  artifactKey: Guid(684ca19697604ca47a5c2af9ed9876f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/Bottom_pressed.png using Guid(684ca19697604ca47a5c2af9ed9876f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d6ca39ad4e4b073a81b96ad6bd589e') in 0.011999 seconds
+  Import took 0.015702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092333 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/ButtonActive.png
+  artifactKey: Guid(7562b13de21491747a736f87ac68d3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/ButtonActive.png using Guid(7562b13de21491747a736f87ac68d3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd440d1eb1ba77e06e913e6cc55212e1d') in 0.010974 seconds
+  Import took 0.015151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/Cavity.png
+  artifactKey: Guid(b4ef4af1b53bde44f8e9f922d658dcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/Cavity.png using Guid(b4ef4af1b53bde44f8e9f922d658dcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa2e308650f29f7da06c52a75ec5a4d') in 0.012638 seconds
+  Import took 0.016587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Toggle/Checked.png
+  artifactKey: Guid(8164c0ec4ff98c04ca87ced3e41250b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Toggle/Checked.png using Guid(8164c0ec4ff98c04ca87ced3e41250b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95cf8da5d551004acb15aa313bbdbf6c') in 0.013213 seconds
+  Import took 0.016838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Toggle/pro/Checked.png
+  artifactKey: Guid(6945da085deaceb42b8c608d5f86934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Toggle/pro/Checked.png using Guid(6945da085deaceb42b8c608d5f86934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f55a3ea9a7b3b78217581ca5a2afcf') in 0.012506 seconds
+  Import took 0.016428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/ButtonPressed.png
+  artifactKey: Guid(c52c2ea717b27064990971ec3c07f557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/ButtonPressed.png using Guid(c52c2ea717b27064990971ec3c07f557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64632b8dc2128d347dbeaab30ca9022') in 0.013027 seconds
+  Import took 0.016549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/AssetStore/MapMagic/Demo/LandTextures/CliffBright_nrm.tif
+  artifactKey: Guid(925ff35fdb73e724e940a3a86582e420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Demo/LandTextures/CliffBright_nrm.tif using Guid(925ff35fdb73e724e940a3a86582e420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6adacba0d2a4c6fd16d62826c9c299e') in 0.016432 seconds
+  Import took 0.019921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Icons/pro/Color.png
+  artifactKey: Guid(c170e0ad87d4d5a43b16c34069bd1272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Icons/pro/Color.png using Guid(c170e0ad87d4d5a43b16c34069bd1272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc52e24fb1e181dd2789602917c6d831') in 0.014606 seconds
+  Import took 0.019449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Toggle/CheckedActive.png
+  artifactKey: Guid(1a26e2229cec36646bd87af18cd336d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Toggle/CheckedActive.png using Guid(1a26e2229cec36646bd87af18cd336d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3150c83e118812747b9d4faef7c1f580') in 0.013711 seconds
+  Import took 0.017612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/pro/ColorButton.png
+  artifactKey: Guid(e87dc8eda2724c84ba41ffdb1c2ac36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/pro/ColorButton.png using Guid(e87dc8eda2724c84ba41ffdb1c2ac36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac17e17e49ea82caa8c6e416fce90846') in 0.012736 seconds
+  Import took 0.016799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/Convert.png
+  artifactKey: Guid(1600e5e92bb43ca45ad677c437b21c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/Convert.png using Guid(1600e5e92bb43ca45ad677c437b21c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f410fde80fa559abaad0fb32ff67acd') in 0.013477 seconds
+  Import took 0.016976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/AssetStore/MapMagic/Demo/Compatibility/CTS/Arrays/CTS_Profile_Albedos.asset
+  artifactKey: Guid(f3ac458ce4c5cbb4393c3cda56ce3289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Demo/Compatibility/CTS/Arrays/CTS_Profile_Albedos.asset using Guid(f3ac458ce4c5cbb4393c3cda56ce3289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c74dc6692ed2462579e0f131bbc468') in 0.124329 seconds
+  Import took 0.128200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/Curve.png
+  artifactKey: Guid(734779176d114ca47a2bcf61d88950d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/Curve.png using Guid(734779176d114ca47a2bcf61d88950d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52126315395fac2bbb28ab4f6f92c7a') in 0.012266 seconds
+  Import took 0.016321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/Constant.png
+  artifactKey: Guid(12c4248fe9d54ef43aeef812fe844638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/Constant.png using Guid(12c4248fe9d54ef43aeef812fe844638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0ba50fb7eb95bd9ce502e3350dab90') in 0.012889 seconds
+  Import took 0.017351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/pro/ColorButton_pressed.png
+  artifactKey: Guid(a5dd4ef38c407e245b46ed83a188b2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/pro/ColorButton_pressed.png using Guid(a5dd4ef38c407e245b46ed83a188b2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c41ce249c14e6e053ee83295ca687a9') in 0.013353 seconds
+  Import took 0.017034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif
+  artifactKey: Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif using Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ec79007349fb5a37825a5c1934b1b2') in 0.016269 seconds
+  Import took 0.020518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/Circle.png
+  artifactKey: Guid(7dad56cc9a5b22349819c9e8721f71b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/Circle.png using Guid(7dad56cc9a5b22349819c9e8721f71b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c412a54f785e62b2b89e9772465143') in 0.012234 seconds
+  Import took 0.015796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/Constant.png
+  artifactKey: Guid(90480ea4fbffcab4f98aa58e9219642a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/Constant.png using Guid(90480ea4fbffcab4f98aa58e9219642a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374c74fe21bb9d850866e3c25e19b8bc') in 0.012334 seconds
+  Import took 0.015675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/AssetStore/MapMagic/Demo/LandTextures/CliffDark.tif
+  artifactKey: Guid(f0eabb916c8c83c48be3498e5b1bc768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Demo/LandTextures/CliffDark.tif using Guid(f0eabb916c8c83c48be3498e5b1bc768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426dc3ace424b9ee066545a447f305e5') in 0.010507 seconds
+  Import took 0.014084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/TexCh/Colorize.png
+  artifactKey: Guid(bd7c969de4bc03841aba47e6fef9dd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/TexCh/Colorize.png using Guid(bd7c969de4bc03841aba47e6fef9dd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58fd6515022fbe585f55e61a2d38595') in 0.012960 seconds
+  Import took 0.017343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/Combine.png
+  artifactKey: Guid(a3f81cdf613d688438f343eae9e0bffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/Combine.png using Guid(a3f81cdf613d688438f343eae9e0bffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308e2ef41133eb75b2b3e9f0c7a12523') in 0.013332 seconds
+  Import took 0.016862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Popup/pro/Create.png
+  artifactKey: Guid(051b6938350360345a23fdcf12f861a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Popup/pro/Create.png using Guid(051b6938350360345a23fdcf12f861a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49f96f78031189aaa4e8c5d12d6b007') in 0.013619 seconds
+  Import took 0.017726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/AssetStore/MapMagic/Demo/Grass/Textures/Camomiles.tif
+  artifactKey: Guid(7fb13e6178b2a524eae395f3e9bc46b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Demo/Grass/Textures/Camomiles.tif using Guid(7fb13e6178b2a524eae395f3e9bc46b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2ce3e843c087576f8a2c8c69a01b76') in 0.017080 seconds
+  Import took 0.020495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/CleanUp.png
+  artifactKey: Guid(a28c62a1f88935f469fe1e8119075e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/CleanUp.png using Guid(a28c62a1f88935f469fe1e8119075e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc51d7aa27fc551f3c7859dd534ef14') in 0.013371 seconds
+  Import took 0.017104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/Curve.png
+  artifactKey: Guid(861eabd9706160c44854b24d652f573b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/Curve.png using Guid(861eabd9706160c44854b24d652f573b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f38662a0f63e317782346f3a673d88') in 0.012171 seconds
+  Import took 0.015730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Chevrons/Down.png
+  artifactKey: Guid(882400e8080046144951d79f58ba3526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Chevrons/Down.png using Guid(882400e8080046144951d79f58ba3526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56333b79c4c1cf5ec68c98e66d784a40') in 0.012482 seconds
+  Import took 0.015958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/TexCh/ColRelief.png
+  artifactKey: Guid(a3da4d86493eab94590d0261ee54c961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/TexCh/ColRelief.png using Guid(a3da4d86493eab94590d0261ee54c961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d3bec627cdc02ad6ccf043bc3cefd4') in 0.013532 seconds
+  Import took 0.017726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/NodeLayers/pro/Dragged.png
+  artifactKey: Guid(ee18acab92927524d9b28782f3d8ddd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/NodeLayers/pro/Dragged.png using Guid(ee18acab92927524d9b28782f3d8ddd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da590090d0a0d200db70316dec3a2929') in 0.012624 seconds
+  Import took 0.016165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/DropDownList.png
+  artifactKey: Guid(2d2ac4a88728c8b448b19ed6bf9a10b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/DropDownList.png using Guid(2d2ac4a88728c8b448b19ed6bf9a10b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add6f808fc23fdba602d121dc51b1837') in 0.012299 seconds
+  Import took 0.015998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Characters/Zombie_01/Textures/enemy_01_initialShadingGroup_MetallicSmoothness.png
+  artifactKey: Guid(795ca2bea66f9c9428f9c24d415884c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Textures/enemy_01_initialShadingGroup_MetallicSmoothness.png using Guid(795ca2bea66f9c9428f9c24d415884c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f007af56426a5653dd9e2aef5aad6e7e') in 0.009468 seconds
+  Import took 0.013678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif using Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f70e084d26ea1bf6c7af4291ddf1fe') in 0.014766 seconds
+  Import took 0.018955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Characters/Zombie_01/Textures/enemy_01_initialShadingGroup_Normal.png
+  artifactKey: Guid(35af398d6daf16c418e04344aa54be81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Textures/enemy_01_initialShadingGroup_Normal.png using Guid(35af398d6daf16c418e04344aa54be81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ccc4c72f3b9437976f51ca9abfac30') in 0.010550 seconds
+  Import took 0.014698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/Close.png
+  artifactKey: Guid(126ebf80eccc3f84994e14acd7110455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/Close.png using Guid(126ebf80eccc3f84994e14acd7110455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d88bc7523e11188abc14f42b56a344') in 0.013581 seconds
+  Import took 0.016892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Layers/pro/Dragged.png
+  artifactKey: Guid(caf12586304d9784395f435985a267ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Layers/pro/Dragged.png using Guid(caf12586304d9784395f435985a267ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c132f783aa5e9f5d0dccf73b8b22c783') in 0.013927 seconds
+  Import took 0.017374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif
+  artifactKey: Guid(3e11968c372730442aae3b4f7c909931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif using Guid(3e11968c372730442aae3b4f7c909931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad3b3e4d7defed881131f26e4abfd4f') in 0.015995 seconds
+  Import took 0.019702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/AssetStore/MapMagic/Demo/LandTextures/CliffBright.tif
+  artifactKey: Guid(418621e72fed41a47a8ee91391b8239d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Demo/LandTextures/CliffBright.tif using Guid(418621e72fed41a47a8ee91391b8239d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea82ce86094d934f47b719b7ec9e21e') in 0.011616 seconds
+  Import took 0.015254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/AssetStore/MapMagic/Demo/Compatibility/CTS/Arrays/CTS_Profile_Normals.asset
+  artifactKey: Guid(0dafd28815427ea449d9250233b13bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Demo/Compatibility/CTS/Arrays/CTS_Profile_Normals.asset using Guid(0dafd28815427ea449d9250233b13bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26891e622ea93b4dd383da9a3a3e8361') in 0.133005 seconds
+  Import took 0.136425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/CleanUp.png
+  artifactKey: Guid(83ff53e6b6f334d4a811328d1b6f886c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/CleanUp.png using Guid(83ff53e6b6f334d4a811328d1b6f886c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7943f533a7049a8451221d6cf8db96') in 0.011625 seconds
+  Import took 0.014940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/Direction.png
+  artifactKey: Guid(4153ca6522dde904884ed669154acf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/Direction.png using Guid(4153ca6522dde904884ed669154acf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3076d2c3031e940ba712782f1c51ab6') in 0.012595 seconds
+  Import took 0.016221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/Contrast.png
+  artifactKey: Guid(28bde2b812d220f4da642717ecb8aeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/Contrast.png using Guid(28bde2b812d220f4da642717ecb8aeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0d8838578e3ab1159112598943f0b1') in 0.013592 seconds
+  Import took 0.017087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/Cavity.png
+  artifactKey: Guid(9960e72585d6108468b273a8c098209b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/Cavity.png using Guid(9960e72585d6108468b273a8c098209b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52642fb98db41b640ad069ff6fa9004f') in 0.011275 seconds
+  Import took 0.014820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/TexCh/Color.png
+  artifactKey: Guid(97b797d94310902489025d263122c5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/TexCh/Color.png using Guid(97b797d94310902489025d263122c5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08cf649eb0171285b7b7e305f834ecfc') in 0.011944 seconds
+  Import took 0.015843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif
+  artifactKey: Guid(2cd242c9999e92b4ca96dab876cfaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif using Guid(2cd242c9999e92b4ca96dab876cfaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3eb04d92c199bbf216f01dcc2d219b') in 0.016032 seconds
+  Import took 0.020006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Characters/Zombie_01/Textures/enemy_01_initialShadingGroup_AlbedoTransparency.png
+  artifactKey: Guid(6459d5c2e0c48144eac7610660dd97f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Textures/enemy_01_initialShadingGroup_AlbedoTransparency.png using Guid(6459d5c2e0c48144eac7610660dd97f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed24bf2df60d1b8f81f4299eb45ce2d4') in 0.009291 seconds
+  Import took 0.013305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/pro/Circle.png
+  artifactKey: Guid(ae02d114393a8234e83cbd6f24c10f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/pro/Circle.png using Guid(ae02d114393a8234e83cbd6f24c10f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce54d83288fde1f8312f69bb502e087') in 0.011691 seconds
+  Import took 0.015418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/pro/ButtonPressed.png
+  artifactKey: Guid(c33f12fca1035fd4594e0e6259069f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/pro/ButtonPressed.png using Guid(c33f12fca1035fd4594e0e6259069f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f584bdfe71183c53bd70588d8fc8d0') in 0.011696 seconds
+  Import took 0.015457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/Empty.png
+  artifactKey: Guid(5050eb465da350a4baa8a45f6743833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/Empty.png using Guid(5050eb465da350a4baa8a45f6743833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c20e7025ddb70f0716b26013cbdf423') in 0.013324 seconds
+  Import took 0.017210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/CurveTex.png
+  artifactKey: Guid(a1b1231637f311c44b403015e8313780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/CurveTex.png using Guid(a1b1231637f311c44b403015e8313780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3686557215f58fcd1515d332939d346c') in 0.013326 seconds
+  Import took 0.016805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Popup/Duplicate.png
+  artifactKey: Guid(825ef7f743e23714782c6f115c67934e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Popup/Duplicate.png using Guid(825ef7f743e23714782c6f115c67934e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb86b09e397a81e31ae12135a49c75e2') in 0.013480 seconds
+  Import took 0.017604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/pro/DropDownList.png
+  artifactKey: Guid(10b958f7639022246a45bf233a2571f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/pro/DropDownList.png using Guid(10b958f7639022246a45bf233a2571f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3780ce26e8a7cf9c4c1733369dea1f59') in 0.011169 seconds
+  Import took 0.014607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/NodeLayers/Dragged.png
+  artifactKey: Guid(4cd344d7fef7eac4782e6e7ac4b51c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/NodeLayers/Dragged.png using Guid(4cd344d7fef7eac4782e6e7ac4b51c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f42c1dec1442a4054cca73df6ac502') in 0.012222 seconds
+  Import took 0.015626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif using Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d726a3030388ea8522740058b090a0') in 0.016473 seconds
+  Import took 0.019970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/Combine.png
+  artifactKey: Guid(3c2c4d93467b7bf4a9c614dcca37911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/Combine.png using Guid(3c2c4d93467b7bf4a9c614dcca37911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afeaf54e28dda3e78be84d674de416e') in 0.011549 seconds
+  Import took 0.015234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Layers/Dragged.png
+  artifactKey: Guid(698b9e750f237e84880921fec6a2f73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Layers/Dragged.png using Guid(698b9e750f237e84880921fec6a2f73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69092277e367aa413e59b023db841747') in 0.012107 seconds
+  Import took 0.016368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Popup/Create.png
+  artifactKey: Guid(9f0fdb22f1bbd924d9f6a8ec93e69ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Popup/Create.png using Guid(9f0fdb22f1bbd924d9f6a8ec93e69ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9ff37ae8b6ccae05082426525cf6d2') in 0.012874 seconds
+  Import took 0.017182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/AssetStore/MapMagic/Demo/LandTextures/CliffDark_nrm.tif
+  artifactKey: Guid(25942b7d55f66f34b96829c304c0d92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Demo/LandTextures/CliffDark_nrm.tif using Guid(25942b7d55f66f34b96829c304c0d92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc59e195b2d5adbe4b0039c3cbf1ad89') in 0.010488 seconds
+  Import took 0.014195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif
+  artifactKey: Guid(e231e4c02c48ee14aafa55f7b1a843c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif using Guid(e231e4c02c48ee14aafa55f7b1a843c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aac94ed163a5666c6f2f32d5ea8622f') in 0.016003 seconds
+  Import took 0.019788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/Convert.png
+  artifactKey: Guid(b85b99e8bd2e0a14799238b9862b9d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/Convert.png using Guid(b85b99e8bd2e0a14799238b9862b9d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0528d37871d0dbf0e871f26fda6cb25') in 0.012527 seconds
+  Import took 0.016252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif
+  artifactKey: Guid(db17334dfe5991a4bbe241ee9a728c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif using Guid(db17334dfe5991a4bbe241ee9a728c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af0b3e56d14973f6dd5bee0184ea4db') in 0.016314 seconds
+  Import took 0.019980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/Down.png
+  artifactKey: Guid(a9145dc135715884aacfdc87e159069f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/Down.png using Guid(a9145dc135715884aacfdc87e159069f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64aaec021fad0580ccbaeff89bc69b5d') in 0.011974 seconds
+  Import took 0.015471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Toggle/pro/CheckedDisabled.png
+  artifactKey: Guid(34182d1ba4e0b4f488fbc16d6b1e2afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Toggle/pro/CheckedDisabled.png using Guid(34182d1ba4e0b4f488fbc16d6b1e2afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afefc03e1b7c14f00ddb33160d199db2') in 0.012695 seconds
+  Import took 0.016462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Toggle/pro/CheckedActive.png
+  artifactKey: Guid(3063a642f5d990a4f99baa79d44f5592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Toggle/pro/CheckedActive.png using Guid(3063a642f5d990a4f99baa79d44f5592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d1090ce43599c042e705f93be7e516') in 0.012003 seconds
+  Import took 0.015804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/pro/Down.png
+  artifactKey: Guid(62e8646a09705d844a8c6ddf5b35e685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/pro/Down.png using Guid(62e8646a09705d844a8c6ddf5b35e685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2624d0e68c40bd599d63e122d38acc47') in 0.011692 seconds
+  Import took 0.015253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Toggle/pro/CheckedDisabled.png
+  artifactKey: Guid(34182d1ba4e0b4f488fbc16d6b1e2afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Toggle/pro/CheckedDisabled.png using Guid(34182d1ba4e0b4f488fbc16d6b1e2afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afefc03e1b7c14f00ddb33160d199db2') in 0.005295 seconds
+  Import took 0.009011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Toggle/CheckedDisabled.png
+  artifactKey: Guid(76c8e1518713cdd4d95d81d65d21f95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Toggle/CheckedDisabled.png using Guid(76c8e1518713cdd4d95d81d65d21f95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a0cddf7893967c343162cb9e60ef23') in 0.011489 seconds
+  Import took 0.015195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Icons/Color.png
+  artifactKey: Guid(da3bb93935443364f9909c287a069c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Icons/Color.png using Guid(da3bb93935443364f9909c287a069c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7eda441e24a9e022286de463acddefa') in 0.006613 seconds
+  Import took 0.010296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Chevrons/pro/Down.png
+  artifactKey: Guid(0bdc366184e847440b76415c001d07de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Chevrons/pro/Down.png using Guid(0bdc366184e847440b76415c001d07de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699d73e182cf18a83d20dc48e5164733') in 0.011302 seconds
+  Import took 0.015448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/Enum.png
+  artifactKey: Guid(8e7d24338f591e741938f270f8b0ca50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/Enum.png using Guid(8e7d24338f591e741938f270f8b0ca50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c110fc5f55e8490703315526081a4071') in 0.014648 seconds
+  Import took 0.018174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/Erosion.png
+  artifactKey: Guid(faefd6e434722074288797eb0afbdd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/Erosion.png using Guid(faefd6e434722074288797eb0afbdd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7475e6a440b8f91e635cca101cafde') in 0.012674 seconds
+  Import took 0.016091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/Erosion.png
+  artifactKey: Guid(0181280650fd5864ab7a81527c32a633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/Erosion.png using Guid(0181280650fd5864ab7a81527c32a633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffc95f55b6fd6792a8ad77c1cd2d65c') in 0.011470 seconds
+  Import took 0.015533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/pro/Enum.png
+  artifactKey: Guid(0cecbaa531fb05b4e9a3c2a7e8fb90a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/pro/Enum.png using Guid(0cecbaa531fb05b4e9a3c2a7e8fb90a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77af58645bfd58296ae09100b6b3c70e') in 0.012150 seconds
+  Import took 0.015608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/Enum.png
+  artifactKey: Guid(f569772c6794b4e429e1c1f66fb4ed27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/Enum.png using Guid(f569772c6794b4e429e1c1f66fb4ed27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e41e2b49bfae68b7e51b179da024b5') in 0.011465 seconds
+  Import took 0.014763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Popup/pro/Expose.png
+  artifactKey: Guid(82bb1cac78b249145b60a7e1b1b0b129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Popup/pro/Expose.png using Guid(82bb1cac78b249145b60a7e1b1b0b129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcb253789d110d95ad11cc16d3e582e') in 0.012567 seconds
+  Import took 0.015939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/pro/Export.png
+  artifactKey: Guid(0e5a0b449afb0b14582822cbb9c029e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/pro/Export.png using Guid(0e5a0b449afb0b14582822cbb9c029e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ed85dffc150b4643ca8eccf48d8d0e') in 0.013212 seconds
+  Import took 0.016754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Icons/ExportCopy.png
+  artifactKey: Guid(50da1741bb50a5d4a82fa1fb78bdca1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Icons/ExportCopy.png using Guid(50da1741bb50a5d4a82fa1fb78bdca1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928f120e5e6df09b28a0c4110cfc4dc6') in 0.012371 seconds
+  Import took 0.016320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/EyeOff.png
+  artifactKey: Guid(f61e7d7d048bdf047b6938b5d57dd99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/EyeOff.png using Guid(f61e7d7d048bdf047b6938b5d57dd99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45408cb763992f3c7042c422e7d24c58') in 0.013107 seconds
+  Import took 0.016960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/ExportTop.png
+  artifactKey: Guid(8adddbf50ab4b4c43b342f1291002877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/ExportTop.png using Guid(8adddbf50ab4b4c43b342f1291002877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2add3f5243fdfebb544b69af6235c5ad') in 0.013869 seconds
+  Import took 0.017802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/pro/ExportTop_pressed.png
+  artifactKey: Guid(4af178e8a75b53940aa7a06e215d1eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/pro/ExportTop_pressed.png using Guid(4af178e8a75b53940aa7a06e215d1eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d8afcf81435b06b746344183ddd68f') in 0.012822 seconds
+  Import took 0.016457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Icons/pro/Export.png
+  artifactKey: Guid(41a98b50793eb4c428f916531d2abc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Icons/pro/Export.png using Guid(41a98b50793eb4c428f916531d2abc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57622afbca217bc3ce0749caaac66a28') in 0.011547 seconds
+  Import took 0.015376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/Export.png
+  artifactKey: Guid(17f6d3f2e3c86374188e9233dee69bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/Export.png using Guid(17f6d3f2e3c86374188e9233dee69bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdacd02f6c9688cf4abc934aff5ae4b2') in 0.012453 seconds
+  Import took 0.016037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Popup/pro/Export.png
+  artifactKey: Guid(1197beeb3f0755c439cc7eb7afc2e7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Popup/pro/Export.png using Guid(1197beeb3f0755c439cc7eb7afc2e7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451b6af7c34cb634ad7d6a672396e2de') in 0.011681 seconds
+  Import took 0.015370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Icons/Export.png
+  artifactKey: Guid(06c82fb87229df24ea34e6b6d59b496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Icons/Export.png using Guid(06c82fb87229df24ea34e6b6d59b496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6e272708ee55dba2867375092a604a') in 0.011634 seconds
+  Import took 0.015406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/pro/ExportBottom_pressed.png
+  artifactKey: Guid(7a8b2e0198c0476438de160b6afe8aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/pro/ExportBottom_pressed.png using Guid(7a8b2e0198c0476438de160b6afe8aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2216218a8446cd52a67ccabbda42d9') in 0.013803 seconds
+  Import took 0.017495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Popup/Expose.png
+  artifactKey: Guid(bdcff6fd7e135d64ebe3779445c96207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Popup/Expose.png using Guid(bdcff6fd7e135d64ebe3779445c96207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746104d5ea7ea8d27eafcb1051b1536c') in 0.011754 seconds
+  Import took 0.015239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/ExportTop_pressed.png
+  artifactKey: Guid(ed86527eb31f43942a15fafda93f7bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/ExportTop_pressed.png using Guid(ed86527eb31f43942a15fafda93f7bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd989c67e1d6c3002e49d199dc61a7649') in 0.011528 seconds
+  Import took 0.015499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/pro/ExportBottom.png
+  artifactKey: Guid(7b6bfe90c8ba53a4080495b4c4bdde04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/pro/ExportBottom.png using Guid(7b6bfe90c8ba53a4080495b4c4bdde04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602d24b873a200d9ff3f304cde65b852') in 0.013175 seconds
+  Import took 0.016569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/pro/Expand.png
+  artifactKey: Guid(1270fd4f1f014964c9137a3450cc1eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/pro/Expand.png using Guid(1270fd4f1f014964c9137a3450cc1eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2076a3ae3050e46dfe6c2905564e523b') in 0.013008 seconds
+  Import took 0.016750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/ExportBottom_pressed.png
+  artifactKey: Guid(3ba6dadfff45f9143969daa83339b10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/ExportBottom_pressed.png using Guid(3ba6dadfff45f9143969daa83339b10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20efbfab15bc46e5b594699df82b4603') in 0.012853 seconds
+  Import took 0.016366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/Expose.png
+  artifactKey: Guid(8f8fa098a4c6e4444bb516512ed2a119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/Expose.png using Guid(8f8fa098a4c6e4444bb516512ed2a119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbaf862e692f2dcb23159b1760398fb') in 0.014860 seconds
+  Import took 0.018655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Icons/pro/ExportCopy.png
+  artifactKey: Guid(405faed1f414ef14c8613d26fff31fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Icons/pro/ExportCopy.png using Guid(405faed1f414ef14c8613d26fff31fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d54e83a8ead31f3a8fffdbf13a0ba10') in 0.011582 seconds
+  Import took 0.015441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Popup/Eye.png
+  artifactKey: Guid(9856c019c97016a44992ca2284957f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Popup/Eye.png using Guid(9856c019c97016a44992ca2284957f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56cba37a55a0dc78869785daccf16a2') in 0.012464 seconds
+  Import took 0.016533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/Expand.png
+  artifactKey: Guid(06bae15088dc7334ea5c57fc9cc3a828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/Expand.png using Guid(06bae15088dc7334ea5c57fc9cc3a828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d0132af57fb79c25d51edcd0b1602c') in 0.012477 seconds
+  Import took 0.016047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/pro/Export_pressed.png
+  artifactKey: Guid(536dd77acd49a334a9bb11868a31c31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/pro/Export_pressed.png using Guid(536dd77acd49a334a9bb11868a31c31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb352327fcdec6ad69fbda3de9d268b9') in 0.014360 seconds
+  Import took 0.018275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Popup/Export.png
+  artifactKey: Guid(d224fb4dea6240445b7c642649b1db55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Popup/Export.png using Guid(d224fb4dea6240445b7c642649b1db55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb05a496bcfa5711cdb20089bd6af2a') in 0.012387 seconds
+  Import took 0.016201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/pro/ExportTop.png
+  artifactKey: Guid(793e27adb96b85145a23852b6d6db039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/pro/ExportTop.png using Guid(793e27adb96b85145a23852b6d6db039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffee68f7b51fedec0174bf315dd7007') in 0.011657 seconds
+  Import took 0.015217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/EyeOn.png
+  artifactKey: Guid(328ae8d474833a447a7a815a568be36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/EyeOn.png using Guid(328ae8d474833a447a7a815a568be36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e993ab098905fd67a94cd41b1bd197e8') in 0.012854 seconds
+  Import took 0.016505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/Export.png
+  artifactKey: Guid(f860898e6313c8641814099073d31279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/Export.png using Guid(f860898e6313c8641814099073d31279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b3f0197a1ce78b945f9ad94df919df') in 0.011367 seconds
+  Import took 0.014867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/pro/EyeOn.png
+  artifactKey: Guid(f49640a7711203742adbd0e444c0d980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/pro/EyeOn.png using Guid(f49640a7711203742adbd0e444c0d980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c8e85c23b731bc4798cab92888c665') in 0.011790 seconds
+  Import took 0.015450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Popup/pro/Eye.png
+  artifactKey: Guid(4ea8a98ef3076e448aca61b2dcc52b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Popup/pro/Eye.png using Guid(4ea8a98ef3076e448aca61b2dcc52b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5264fe69de839d02d890d922d1f2e141') in 0.011332 seconds
+  Import took 0.015076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/ProgressBar/FillFull.png
+  artifactKey: Guid(0ddb5570b933dd441a7064d91188c180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/ProgressBar/FillFull.png using Guid(0ddb5570b933dd441a7064d91188c180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339e70ae3be04506a4bcdce30a45d265') in 0.013163 seconds
+  Import took 0.016890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/Flatten.png
+  artifactKey: Guid(ec2906029700e0d44b86fd21725a58a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/Flatten.png using Guid(ec2906029700e0d44b86fd21725a58a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f713ae2a04368e5063965412ab30f695') in 0.013334 seconds
+  Import took 0.017542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/ProgressBar/FillToolbar.png
+  artifactKey: Guid(f83f76d63f3fc764e9145819da1a736d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/ProgressBar/FillToolbar.png using Guid(f83f76d63f3fc764e9145819da1a736d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b302b88634bfe915996fbd7243ba3f3') in 0.012845 seconds
+  Import took 0.019361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/FocusSmall.png
+  artifactKey: Guid(bf354c54365887340833f73c12e0089a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/FocusSmall.png using Guid(bf354c54365887340833f73c12e0089a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fad29b1079edd58cadf872cea0d466a') in 0.012646 seconds
+  Import took 0.016505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/Flatten.png
+  artifactKey: Guid(e8c42e27dc7cd97488164b656c075a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/Flatten.png using Guid(e8c42e27dc7cd97488164b656c075a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b6dbb950d1b326b120b2b1f52c3c30') in 0.012243 seconds
+  Import took 0.016186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/pro/FoldoutOpaque.png
+  artifactKey: Guid(75d44f8cee713ae48b0eba0a5a88ad9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/pro/FoldoutOpaque.png using Guid(75d44f8cee713ae48b0eba0a5a88ad9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd8afaebb6f067951e31b6de49994ef') in 0.012637 seconds
+  Import took 0.016578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Foldout.png
+  artifactKey: Guid(15870b70dcb6acc49a48d60e490181e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Foldout.png using Guid(15870b70dcb6acc49a48d60e490181e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e26ca77e4b4c0409765550c1e1677f') in 0.012902 seconds
+  Import took 0.016889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/TexCh/Flat.png
+  artifactKey: Guid(2ab42d519bc10934ea97febaba78e703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/TexCh/Flat.png using Guid(2ab42d519bc10934ea97febaba78e703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b01120a19ad9b593f02629382af97c') in 0.013270 seconds
+  Import took 0.016689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/FolderUp.png
+  artifactKey: Guid(72f3c7ea7e4f0a24f9e9dd0b3768cd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/FolderUp.png using Guid(72f3c7ea7e4f0a24f9e9dd0b3768cd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08aa9dab0a11c59566a10a3ea784a52') in 0.013156 seconds
+  Import took 0.016568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/pro/FocusSmall.png
+  artifactKey: Guid(fde9992f69d852b4a9a132e3e81eeeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/pro/FocusSmall.png using Guid(fde9992f69d852b4a9a132e3e81eeeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b227ec6b9d72f78edfa988c0a7f688') in 0.011651 seconds
+  Import took 0.015528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/Focus.png
+  artifactKey: Guid(622f850151254094486c692fde4c06ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/Focus.png using Guid(622f850151254094486c692fde4c06ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc67fa1e19c39ce6ca8e8082ae869673') in 0.012901 seconds
+  Import took 0.016778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/pro/Focus.png
+  artifactKey: Guid(a0ef38239b17be844bf080671d32ab2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/pro/Focus.png using Guid(a0ef38239b17be844bf080671d32ab2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ca4430979a72429e4c1e9ea6fa2d1e') in 0.011591 seconds
+  Import took 0.015699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/pro/Field.png
+  artifactKey: Guid(0e2d4c74683141545bc779bc14ca5207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/pro/Field.png using Guid(0e2d4c74683141545bc779bc14ca5207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd874c066815ba60e99a12dcf77a54c47') in 0.012841 seconds
+  Import took 0.016718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/ProgressBar/Fill.png
+  artifactKey: Guid(bee5d6534e68b0a4e9388a913ae32798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/ProgressBar/Fill.png using Guid(bee5d6534e68b0a4e9388a913ae32798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cf82b5b138a59b021181af537d079a') in 0.013459 seconds
+  Import took 0.017377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/Field.png
+  artifactKey: Guid(df5fa7dd0f63c4f4da73315005179a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/Field.png using Guid(df5fa7dd0f63c4f4da73315005179a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c76c34243b3adc9586cbeceb1b06930') in 0.011530 seconds
+  Import took 0.014888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/FolderTree.png
+  artifactKey: Guid(5f43d351f80711c4eb04d5cf18df9159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/FolderTree.png using Guid(5f43d351f80711c4eb04d5cf18df9159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907deb380275839d9fde9e762d8353fa') in 0.013022 seconds
+  Import took 0.016845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/pro/Foldout.png
+  artifactKey: Guid(38ba3e85d8568144a8f5fca1edc62f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/pro/Foldout.png using Guid(38ba3e85d8568144a8f5fca1edc62f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60dc270bebb61f49f86166095034f0b7') in 0.013619 seconds
+  Import took 0.017288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/FoldoutBlue.png
+  artifactKey: Guid(3f1590658cbcda248b355687c1fa41c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/FoldoutBlue.png using Guid(3f1590658cbcda248b355687c1fa41c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8c8af9e0d06808c3782133c697b841') in 0.013675 seconds
+  Import took 0.017442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/Foldout.png
+  artifactKey: Guid(4560da360d4ba41428d50cd4922df59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/Foldout.png using Guid(4560da360d4ba41428d50cd4922df59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b511240454140243e0a25aeaff3571') in 0.012317 seconds
+  Import took 0.016204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/FoldoutOpaque.png
+  artifactKey: Guid(121286d03a4c2494597354e66faab1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/FoldoutOpaque.png using Guid(121286d03a4c2494597354e66faab1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2e6ab0b066dff4422eef46f2f06a7d') in 0.012040 seconds
+  Import took 0.016214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/Floor.png
+  artifactKey: Guid(47888d7ec7aeb1748b8dc8cb4d8b22b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/pro/Floor.png using Guid(47888d7ec7aeb1748b8dc8cb4d8b22b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fdbf5ab65148470d9f9c6e9657e364') in 0.012791 seconds
+  Import took 0.016938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Node/Footer.png
+  artifactKey: Guid(ec2e5eeb83d6bc94dbf700083dcbd72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Node/Footer.png using Guid(ec2e5eeb83d6bc94dbf700083dcbd72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0792ec05d70645567391670654694544') in 0.013149 seconds
+  Import took 0.016878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Node/Field.png
+  artifactKey: Guid(6ad17d9674984d74290a2baea2cb357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Node/Field.png using Guid(6ad17d9674984d74290a2baea2cb357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90fd6b1e3850beced998ff44a762270') in 0.012294 seconds
+  Import took 0.015826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/FoldoutMinimal.png
+  artifactKey: Guid(a0eeffe5d3d0c5b4b892f9df2a485ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/FoldoutMinimal.png using Guid(a0eeffe5d3d0c5b4b892f9df2a485ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995de4c1c5aa71168ac51ac5a7137156') in 0.012779 seconds
+  Import took 0.016639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/FolderOpen.png
+  artifactKey: Guid(1a9985473f43ec9409fda4164e18e2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/FolderOpen.png using Guid(1a9985473f43ec9409fda4164e18e2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2e937201da070858a65f64f5296b20') in 0.015004 seconds
+  Import took 0.018650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/Floor.png
+  artifactKey: Guid(78217c1d1592629469c1e470f10dd19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/Floor.png using Guid(78217c1d1592629469c1e470f10dd19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a36fbcfbd73c622cb81cc021e95afd') in 0.015087 seconds
+  Import took 0.018502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Node/FooterNofield.png
+  artifactKey: Guid(75eedd61d21f4f5408377c6fbbff0e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Node/FooterNofield.png using Guid(75eedd61d21f4f5408377c6fbbff0e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f55f535bf873f0642bbe903a5fbeaf9') in 0.013411 seconds
+  Import took 0.016875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/pro/EyeOff.png
+  artifactKey: Guid(2ef54bdfdbc61154fa7fdbff309d61be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/pro/EyeOff.png using Guid(2ef54bdfdbc61154fa7fdbff309d61be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c63da525cf2fab9c44a538c57774e3') in 0.013058 seconds
+  Import took 0.017118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Icons/Color.png
+  artifactKey: Guid(da3bb93935443364f9909c287a069c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Icons/Color.png using Guid(da3bb93935443364f9909c287a069c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7eda441e24a9e022286de463acddefa') in 0.006505 seconds
+  Import took 0.010042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/Export_pressed.png
+  artifactKey: Guid(2764a4e6b4c16a745a3ffbb9f55e599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/Export_pressed.png using Guid(2764a4e6b4c16a745a3ffbb9f55e599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b1280437d64342c7c32b45d895f0fd') in 0.014008 seconds
+  Import took 0.017500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/Editor.png
+  artifactKey: Guid(9bcfde1f714608641b1dbbb4eb2bf2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/Editor.png using Guid(9bcfde1f714608641b1dbbb4eb2bf2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073dacf914c46d4ffa9739a90f812e22') in 0.014502 seconds
+  Import took 0.018349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/ColorButton_pressed.png
+  artifactKey: Guid(bc650a502c9e9cd43a2d65e4b6e1f888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/ColorButton_pressed.png using Guid(bc650a502c9e9cd43a2d65e4b6e1f888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2088d530c0dc545d1c2f17dea6485b5') in 0.013997 seconds
+  Import took 0.017680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/ColorButton.png
+  artifactKey: Guid(c9e09317e0f333f41957cfa14dee3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/ColorButton.png using Guid(c9e09317e0f333f41957cfa14dee3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4723dbdcccef6a4d250c59a6a134e35a') in 0.013830 seconds
+  Import took 0.017772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/Direction.png
+  artifactKey: Guid(0f47af8adeba54c48955f40228a4656b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/Direction.png using Guid(0f47af8adeba54c48955f40228a4656b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ced9eb1008850354875678cbade4bd') in 0.014285 seconds
+  Import took 0.017588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/ExportBottom.png
+  artifactKey: Guid(655be2246a6208440ad5683e590c0e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/PinButtons/ExportBottom.png using Guid(655be2246a6208440ad5683e590c0e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20bb5ab55ecd2c3c3ec8afd8ca2b26d5') in 0.013663 seconds
+  Import took 0.017475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/ButtonActive.png
+  artifactKey: Guid(7562b13de21491747a736f87ac68d3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Backgrounds/ButtonActive.png using Guid(7562b13de21491747a736f87ac68d3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd440d1eb1ba77e06e913e6cc55212e1d') in 0.009576 seconds
+  Import took 0.013172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif
+  artifactKey: Guid(eae496078d11426448124eaf8b285e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif using Guid(eae496078d11426448124eaf8b285e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fca96be15dc6af5aea3aeb5f2582099') in 0.016756 seconds
+  Import took 0.020531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/Contrast.png
+  artifactKey: Guid(9d2e924472e133e4b90c81146c8a083f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/GeneratorIcons/Contrast.png using Guid(9d2e924472e133e4b90c81146c8a083f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab32d534013d4e27b8a881ec660c287') in 0.014750 seconds
+  Import took 0.018641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/Error.png
+  artifactKey: Guid(f5d1a9c436c657848b5c8ed68875aaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Tools/GUI/Editor/Resources/DPUI/Icons/Error.png using Guid(f5d1a9c436c657848b5c8ed68875aaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2deb834d6f2a602dc9396938480ff88b') in 0.015325 seconds
+  Import took 0.018939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Popup/pro/Duplicate.png
+  artifactKey: Guid(7b4f885b8394068438cbe336750adaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Core/Editor/Resources/MapMagic/Popup/pro/Duplicate.png using Guid(7b4f885b8394068438cbe336750adaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7877b6de7a344534904cf1002dd6826a') in 0.013745 seconds
+  Import took 0.017781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.570737 seconds.
+  path: Assets/AssetStore/MapMagic/Demo/Materials/TerrainHDRP.mat
+  artifactKey: Guid(792016030bae20d4dada2f09b5749a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Demo/Materials/TerrainHDRP.mat using Guid(792016030bae20d4dada2f09b5749a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582e18e0f8aefaf743af3c4bcf29a7f1') in 0.019727 seconds
+  Import took 0.023524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/AssetStore/MapMagic/Demo/Materials/TerrainURP.mat
+  artifactKey: Guid(34ad7d7fa0a5a6e48aaec1574ed7aed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Demo/Materials/TerrainURP.mat using Guid(34ad7d7fa0a5a6e48aaec1574ed7aed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af54758438a8ba04b9c9c1d204d4f965') in 0.490258 seconds
+  Import took 0.493552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/AssetStore/MapMagic/Demo/Materials/Water.mat
+  artifactKey: Guid(e3ec03940d8819c47ae8616963afd1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MapMagic/Demo/Materials/Water.mat using Guid(e3ec03940d8819c47ae8616963afd1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fbaa9477b215a862a1c028ca396d40') in 0.046892 seconds
+  Import took 0.050086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.859889 seconds.
+  path: Assets/Characters/Zombie_01/Enemy01.fbx
+  artifactKey: Guid(2be77a2227183bc478f5a45602c219b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Enemy01.fbx using Guid(2be77a2227183bc478f5a45602c219b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba9c7b7ef5eabb6bb100f967ea9df73') in 0.019914 seconds
+  Import took 0.023726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.859684 seconds.
+  path: Assets/Characters/Zombie_01/Enemy01.fbx
+  artifactKey: Guid(2be77a2227183bc478f5a45602c219b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Enemy01.fbx using Guid(2be77a2227183bc478f5a45602c219b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190fdf03584a5d42bd00b54fb21c73be') in 0.018599 seconds
+  Import took 0.022577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.882567 seconds.
+  path: Assets/Characters/Zombie_01/Animations/running crawl.fbx
+  artifactKey: Guid(ef683d4ba1751414c8e546d9e36ca04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Animations/running crawl.fbx using Guid(ef683d4ba1751414c8e546d9e36ca04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9fdbdcad55976e63c589892dcafc01') in 0.008617 seconds
+  Import took 0.013608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.769322 seconds.
+  path: Assets/Characters/Zombie_01/Animations/running crawl.fbx
+  artifactKey: Guid(ef683d4ba1751414c8e546d9e36ca04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Animations/running crawl.fbx using Guid(ef683d4ba1751414c8e546d9e36ca04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4093dbdb9e22aab59b64ca5862105b') in 0.004582 seconds
+  Import took 0.008434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013952 seconds.
+  path: Assets/Characters/Zombie_01/Animations/running crawl.fbx
+  artifactKey: Guid(ef683d4ba1751414c8e546d9e36ca04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Animations/running crawl.fbx using Guid(ef683d4ba1751414c8e546d9e36ca04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4093dbdb9e22aab59b64ca5862105b') in 0.004822 seconds
+  Import took 0.008815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.628522 seconds.
+  path: Assets/Characters/Zombie_01/Animations/zombie biting (2).fbx
+  artifactKey: Guid(a2b4a01dab0d6bd428868a9dcf69b53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Animations/zombie biting (2).fbx using Guid(a2b4a01dab0d6bd428868a9dcf69b53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449b4e80c307d2f03897dec140d16f74') in 0.008957 seconds
+  Import took 0.012719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.226584 seconds.
+  path: Assets/Characters/Zombie_01/Animations/zombie attack.fbx
+  artifactKey: Guid(8d39dafb44ceb6a47985b7ad341d918c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Animations/zombie attack.fbx using Guid(8d39dafb44ceb6a47985b7ad341d918c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b936ab82527aab7e7d9640ac3d949460') in 0.009224 seconds
+  Import took 0.012944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Characters/Zombie_01/Animations/zombie attack.fbx
+  artifactKey: Guid(8d39dafb44ceb6a47985b7ad341d918c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Animations/zombie attack.fbx using Guid(8d39dafb44ceb6a47985b7ad341d918c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b936ab82527aab7e7d9640ac3d949460') in 0.005304 seconds
+  Import took 0.008928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.269532 seconds.
+  path: Assets/Characters/Zombie_01/Animations/zombie biting.fbx
+  artifactKey: Guid(4127446da63b23c4e83f8825687f84a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Animations/zombie biting.fbx using Guid(4127446da63b23c4e83f8825687f84a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47317fde6793b7e2d725aa4176d6929') in 0.010288 seconds
+  Import took 0.015103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000772 seconds.
+  path: Assets/Characters/Zombie_01/Animations/zombie biting.fbx
+  artifactKey: Guid(4127446da63b23c4e83f8825687f84a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Animations/zombie biting.fbx using Guid(4127446da63b23c4e83f8825687f84a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47317fde6793b7e2d725aa4176d6929') in 0.005839 seconds
+  Import took 0.009632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.119483 seconds.
+  path: Assets/Characters/Zombie_01/Animations/zombie crawl.fbx
+  artifactKey: Guid(4b0d91ab169c8a54fb85e68b389b1035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Animations/zombie crawl.fbx using Guid(4b0d91ab169c8a54fb85e68b389b1035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a7d28318308649f91cdaf405e4b049') in 0.010963 seconds
+  Import took 0.014744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.830584 seconds.
+  path: Assets/Characters/Zombie_01/Animations/zombie neck bite.fbx
+  artifactKey: Guid(0eb8aaac433e14c439f93a23a2d1ecb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Zombie_01/Animations/zombie neck bite.fbx using Guid(0eb8aaac433e14c439f93a23a2d1ecb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d9bfc0abef2fc34d10880825028bfa') in 0.009256 seconds
+  Import took 0.014583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.138153 seconds.
+  path: Assets/Scripts/Enemy
+  artifactKey: Guid(d9b50c27f471b5743b10c6d165683b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy using Guid(d9b50c27f471b5743b10c6d165683b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd4f11985acd545955424ddc7ffb04e') in 0.006786 seconds
+  Import took 0.010889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.711004 seconds.
+  path: Assets/Scripts/Enemy/EnemyController.cs
+  artifactKey: Guid(24d3935f59f87734a84d8d2dd74f33d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EnemyController.cs using Guid(24d3935f59f87734a84d8d2dd74f33d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a7420b088b3fbfa537c4d231b9288c') in 0.011385 seconds
+  Import took 0.016126 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001846 seconds.
+Registered in 0.001550 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.904 seconds
+- Completed reload, in  0.799 seconds
 Platform modules already initialized, skipping
 Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
 Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
@@ -130,30 +1690,69 @@ Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Ren
 Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
 Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2514 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.8 MB.
-System memory in use after: 148.6 MB.
+Unloading 2516 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.7 MB.
+System memory in use after: 168.4 MB.
 
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3048.
-Total: 3.919900 ms (FindLiveObjects: 0.357300 ms CreateObjectMapping: 0.176000 ms MarkObjects: 2.121100 ms  DeleteObjects: 1.264200 ms)
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3163.
+Total: 3.305200 ms (FindLiveObjects: 0.278400 ms CreateObjectMapping: 0.124500 ms MarkObjects: 1.804500 ms  DeleteObjects: 1.096400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001946 seconds.
+Registered in 0.001611 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.886 seconds
+- Completed reload, in  0.777 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2516 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.8 MB.
+System memory in use after: 168.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3166.
+Total: 3.252500 ms (FindLiveObjects: 0.276200 ms CreateObjectMapping: 0.119700 ms MarkObjects: 1.726400 ms  DeleteObjects: 1.129500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 671.573681 seconds.
+  path: Assets/Scripts/Enemy/EnemyController.cs
+  artifactKey: Guid(24d3935f59f87734a84d8d2dd74f33d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EnemyController.cs using Guid(24d3935f59f87734a84d8d2dd74f33d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953756e397556a3efb69dc0a6e98b69c') in 0.005993 seconds
+  Import took 0.010380 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002533 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.838 seconds
 Platform modules already initialized, skipping
 Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
 Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
@@ -163,11 +1762,794 @@ Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/
 Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
 Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2514 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.9 MB.
-System memory in use after: 148.6 MB.
+Unloading 2516 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.9 MB.
+System memory in use after: 168.5 MB.
 
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3051.
-Total: 3.825500 ms (FindLiveObjects: 0.485000 ms CreateObjectMapping: 0.187600 ms MarkObjects: 1.805400 ms  DeleteObjects: 1.345900 ms)
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3169.
+Total: 3.037400 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.091800 ms MarkObjects: 1.618900 ms  DeleteObjects: 1.099900 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 538.182312 seconds.
+  path: Assets/Scripts/Enemy/EnemyAi.cs
+  artifactKey: Guid(ec811159096107e4aa7b56af502d4e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EnemyAi.cs using Guid(ec811159096107e4aa7b56af502d4e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5588dd9bd127434526f49291cf4b1b4f') in 0.009509 seconds
+  Import took 0.014526 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001434 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.760 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.9 MB.
+System memory in use after: 168.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3173.
+Total: 3.352000 ms (FindLiveObjects: 0.309200 ms CreateObjectMapping: 0.145900 ms MarkObjects: 1.690500 ms  DeleteObjects: 1.205500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001465 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.746 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.8 MB.
+System memory in use after: 168.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3176.
+Total: 3.395200 ms (FindLiveObjects: 0.305300 ms CreateObjectMapping: 0.134700 ms MarkObjects: 1.773900 ms  DeleteObjects: 1.180400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 646.738247 seconds.
+  path: Assets/Scripts/Enemy/EnemyAi.cs
+  artifactKey: Guid(ec811159096107e4aa7b56af502d4e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EnemyAi.cs using Guid(ec811159096107e4aa7b56af502d4e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbc1d11bc476422c7ad3fc1af97bc16') in 0.004784 seconds
+  Import took 0.008656 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001495 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.777 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.9 MB.
+System memory in use after: 168.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3179.
+Total: 3.405300 ms (FindLiveObjects: 0.330500 ms CreateObjectMapping: 0.156400 ms MarkObjects: 1.663700 ms  DeleteObjects: 1.253800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 284.183247 seconds.
+  path: Assets/Scripts/Enemy/EnemyAi.cs
+  artifactKey: Guid(ec811159096107e4aa7b56af502d4e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EnemyAi.cs using Guid(ec811159096107e4aa7b56af502d4e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5062e188cce1ba8f8388eb8032da43da') in 0.004571 seconds
+  Import took 0.009267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.444702 seconds.
+  path: Assets/Scripts/Enemy/EnemyController.cs
+  artifactKey: Guid(24d3935f59f87734a84d8d2dd74f33d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EnemyController.cs using Guid(24d3935f59f87734a84d8d2dd74f33d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4008efe6ae46431d06346259eaa320') in 0.004832 seconds
+  Import took 0.008400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016234 seconds.
+  path: Assets/Scripts/Enemy/EnemyController.cs
+  artifactKey: Guid(24d3935f59f87734a84d8d2dd74f33d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EnemyController.cs using Guid(24d3935f59f87734a84d8d2dd74f33d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4008efe6ae46431d06346259eaa320') in 0.002277 seconds
+  Import took 0.005888 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001476 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.737 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.9 MB.
+System memory in use after: 168.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3182.
+Total: 3.491900 ms (FindLiveObjects: 0.308500 ms CreateObjectMapping: 0.129700 ms MarkObjects: 1.789400 ms  DeleteObjects: 1.263200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001660 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.829 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.9 MB.
+System memory in use after: 168.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3185.
+Total: 3.897000 ms (FindLiveObjects: 0.301200 ms CreateObjectMapping: 0.134800 ms MarkObjects: 2.142800 ms  DeleteObjects: 1.316500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001536 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.761 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.9 MB.
+System memory in use after: 168.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3188.
+Total: 3.338200 ms (FindLiveObjects: 0.252900 ms CreateObjectMapping: 0.108000 ms MarkObjects: 1.776300 ms  DeleteObjects: 1.200000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001609 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.767 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.8 MB.
+System memory in use after: 168.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3191.
+Total: 3.335300 ms (FindLiveObjects: 0.246300 ms CreateObjectMapping: 0.122400 ms MarkObjects: 1.718900 ms  DeleteObjects: 1.246800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001560 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.763 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.0 MB.
+System memory in use after: 168.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3194.
+Total: 3.287200 ms (FindLiveObjects: 0.265700 ms CreateObjectMapping: 0.114700 ms MarkObjects: 1.684400 ms  DeleteObjects: 1.221600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001511 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.759 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.0 MB.
+System memory in use after: 168.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3197.
+Total: 3.670800 ms (FindLiveObjects: 0.347200 ms CreateObjectMapping: 0.175900 ms MarkObjects: 1.798500 ms  DeleteObjects: 1.347800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001682 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.854 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.0 MB.
+System memory in use after: 168.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3200.
+Total: 3.130600 ms (FindLiveObjects: 0.257300 ms CreateObjectMapping: 0.108200 ms MarkObjects: 1.574300 ms  DeleteObjects: 1.190200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001586 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.793 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.9 MB.
+System memory in use after: 168.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3203.
+Total: 3.869100 ms (FindLiveObjects: 0.378300 ms CreateObjectMapping: 0.159200 ms MarkObjects: 2.006300 ms  DeleteObjects: 1.323800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001632 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.741 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.0 MB.
+System memory in use after: 168.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3206.
+Total: 3.667000 ms (FindLiveObjects: 0.339300 ms CreateObjectMapping: 0.149600 ms MarkObjects: 1.860900 ms  DeleteObjects: 1.315600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001514 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.747 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.0 MB.
+System memory in use after: 168.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3209.
+Total: 3.540000 ms (FindLiveObjects: 0.314600 ms CreateObjectMapping: 0.168700 ms MarkObjects: 1.736900 ms  DeleteObjects: 1.318600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002078 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.868 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.0 MB.
+System memory in use after: 168.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3212.
+Total: 4.102400 ms (FindLiveObjects: 0.371500 ms CreateObjectMapping: 0.229100 ms MarkObjects: 1.976200 ms  DeleteObjects: 1.524300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001668 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.758 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.9 MB.
+System memory in use after: 168.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3215.
+Total: 3.364700 ms (FindLiveObjects: 0.285300 ms CreateObjectMapping: 0.128000 ms MarkObjects: 1.687500 ms  DeleteObjects: 1.262800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001552 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.760 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.0 MB.
+System memory in use after: 168.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3218.
+Total: 3.308900 ms (FindLiveObjects: 0.298700 ms CreateObjectMapping: 0.130200 ms MarkObjects: 1.643900 ms  DeleteObjects: 1.235200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001504 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.764 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.0 MB.
+System memory in use after: 168.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3221.
+Total: 3.610200 ms (FindLiveObjects: 0.365900 ms CreateObjectMapping: 0.148000 ms MarkObjects: 1.845200 ms  DeleteObjects: 1.250300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001650 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.785 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.0 MB.
+System memory in use after: 168.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3224.
+Total: 3.648600 ms (FindLiveObjects: 0.326600 ms CreateObjectMapping: 0.150000 ms MarkObjects: 1.926600 ms  DeleteObjects: 1.244300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001597 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.790 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.0 MB.
+System memory in use after: 168.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3227.
+Total: 3.769800 ms (FindLiveObjects: 0.371600 ms CreateObjectMapping: 0.153300 ms MarkObjects: 1.916400 ms  DeleteObjects: 1.327600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001641 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.9 MB.
+System memory in use after: 168.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3230.
+Total: 3.816000 ms (FindLiveObjects: 0.311100 ms CreateObjectMapping: 0.138500 ms MarkObjects: 2.035600 ms  DeleteObjects: 1.328100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001591 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.792 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.1 MB.
+System memory in use after: 168.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3233.
+Total: 3.847700 ms (FindLiveObjects: 0.370500 ms CreateObjectMapping: 0.189400 ms MarkObjects: 1.872500 ms  DeleteObjects: 1.414000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001670 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.762 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.0 MB.
+System memory in use after: 168.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3236.
+Total: 3.693800 ms (FindLiveObjects: 0.316700 ms CreateObjectMapping: 0.159700 ms MarkObjects: 1.872300 ms  DeleteObjects: 1.344000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001681 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.861 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.1 MB.
+System memory in use after: 168.8 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3239.
+Total: 4.124900 ms (FindLiveObjects: 0.284000 ms CreateObjectMapping: 0.112400 ms MarkObjects: 2.328500 ms  DeleteObjects: 1.398200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001620 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.844 seconds
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.1 MB.
+System memory in use after: 168.8 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3242.
+Total: 4.372000 ms (FindLiveObjects: 0.372600 ms CreateObjectMapping: 0.143700 ms MarkObjects: 2.313400 ms  DeleteObjects: 1.541100 ms)
+
