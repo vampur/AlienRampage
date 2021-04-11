@@ -20,9 +20,10 @@ public class PlayerController : MonoBehaviour
     Animator anim;
 
     // public globals
-    //[HideInInspector]
+    public int iHealth;
+    [HideInInspector]
     public float flForwardMove;
-    //[HideInInspector]
+    [HideInInspector]
     public float flSideMove;
     [HideInInspector]
     public bool bJumpButton;
@@ -35,7 +36,10 @@ public class PlayerController : MonoBehaviour
     float flMoveAmount;
     bool bInJump;
     bool bOnGround;
+    bool bDead;
+    bool bDeathHandled;
     List<Collider> colsInTk = new List<Collider>();
+    UnityEngine.UI.Slider uiHealthBar;
 
     // Start is called before the first frame update
     void Start()
@@ -43,6 +47,23 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         col = GetComponent<BoxCollider>();
         anim = GetComponentInChildren<Animator>();
+
+        uiHealthBar = GameObject.FindGameObjectWithTag("HealthBar").GetComponent<UnityEngine.UI.Slider>();
+
+        iHealth = 100;
+
+        foreach(var erb in GetComponentsInChildren<Rigidbody>())
+        {
+            erb.isKinematic = true;
+        }
+        foreach(var ecol in GetComponentsInChildren<Collider>())
+        {
+            if(ecol.tag != "Weapon")
+                ecol.enabled = false;
+        }
+        rb.isKinematic = false;
+        GetComponent<CapsuleCollider>().enabled = true;
+        col.enabled = true;
     }
 
     // Update is called once per frame
@@ -58,17 +79,61 @@ public class PlayerController : MonoBehaviour
         // ghetto restart level button
         if(Input.GetKey(KeyCode.F5))
             UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+        
+        if(bDeathHandled)
+            return;
+        
+        if(bDead)
+        {
+            anim.enabled = false;
+
+            foreach (var rb in GetComponentsInChildren<Rigidbody>())
+            {
+                rb.interpolation = RigidbodyInterpolation.Interpolate;
+                rb.isKinematic = false;
+            }
+            foreach (var col in GetComponentsInChildren<Collider>())
+            {
+                col.enabled = true;
+            }
+
+            GetComponent<Rigidbody>().isKinematic = true;
+            GetComponent<Collider>().enabled = false;
+            bDeathHandled = true;
+        }
     }
     
 
     public float dbgSpeed;
     void FixedUpdate()
     {
-        HandleMove();
         HandleJump();
+        HandleMove();
         HandleTelekinesis();
         HandleAnims();
         dbgSpeed = new Vector3(rb.velocity.x, 0f, rb.velocity.z).magnitude;
+    }
+
+    void HandleJump()
+    {
+        Vector3 vecFeetCenter = col.bounds.center - new Vector3(0f, col.bounds.extents.y, 0f);
+        Vector3 vecFeetHalfExts = col.bounds.extents;
+        vecFeetHalfExts.y = ((vecFeetHalfExts.x + vecFeetHalfExts.z) - (vecFeetHalfExts.x + vecFeetHalfExts.z) * .5f) / 2;
+        vecFeetHalfExts.x *= .5f;
+        vecFeetHalfExts.z *= .5f;
+        bOnGround = Physics.OverlapBox(vecFeetCenter, vecFeetHalfExts, col.transform.rotation, ~LayerMask.GetMask("Player")).Length > 0;
+        if(bOnGround)
+        {
+            if(bJumpButton && !bInJump)
+            {
+                rb.velocity = new Vector3(rb.velocity.x * 1.75f, flJumpVel, rb.velocity.z * 1.75f);
+                bInJump = true;
+            }
+            else if(!bJumpButton)
+            {
+                bInJump = false;
+            }
+        }
     }
 
     void HandleMove()
@@ -85,6 +150,9 @@ public class PlayerController : MonoBehaviour
         vecTargetDir.y = 0f;
         transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(vecTargetDir), flTurnSpeed * Time.fixedDeltaTime);
 
+        if(!bOnGround)
+            return;
+
         if(flForwardMove == 0f && flSideMove == 0f)
             return;
         Vector3 vecVelTarget = new Vector3(vecInputDir.x * flMoveSpeedCur, 0f, vecInputDir.z * flMoveSpeedCur);
@@ -95,29 +163,11 @@ public class PlayerController : MonoBehaviour
         vecVelTarget.y = rb.velocity.y;
         Vector3 vecVelDelta = vecVelTarget - rb.velocity;
         float flSmooth = 3f;
-        rb.velocity += vecVelDelta / flSmooth;
-    }
 
-    void HandleJump()
-    {
-        Vector3 vecFeetCenter = col.bounds.center - new Vector3(0f, col.bounds.extents.y, 0f);
-        Vector3 vecFeetHalfExts = col.bounds.extents;
-        vecFeetHalfExts.y = ((vecFeetHalfExts.x + vecFeetHalfExts.z) - (vecFeetHalfExts.x + vecFeetHalfExts.z) * .5f) / 2;
-        vecFeetHalfExts.x *= .5f;
-        vecFeetHalfExts.z *= .5f;
-        bOnGround = Physics.OverlapBox(vecFeetCenter, vecFeetHalfExts, col.transform.rotation, ~LayerMask.GetMask("Player")).Length > 0;
-        if(bOnGround)
-        {
-            if(bJumpButton && !bInJump)
-            {
-                rb.velocity = new Vector3(rb.velocity.x * 1.27f, flJumpVel, rb.velocity.z * 1.27f);
-                bInJump = true;
-            }
-            else
-            {
-                bInJump = false;
-            }
-        }
+        if(anim.GetCurrentAnimatorStateInfo(0).IsName("DamageReceived"))
+            return;
+
+        rb.velocity += vecVelDelta / flSmooth;
     }
 
     void HandleTelekinesis()
@@ -128,7 +178,13 @@ public class PlayerController : MonoBehaviour
         if(bTkPullButton)
             iTkDir--;
         
-        Vector3 vecPsyHole = transform.TransformPoint(flPsyHoleRadius * 1.5f, flPsyHoleRadius * 1.5f, flPsyHoleRadius * 1.5f);
+        // r = sqrt((rx)^2 + (ry)^2 + (rz)^2)
+        // r^2 = (rx)^2 + (yr)^2 + (zr)^2
+        // (rx)^2 = r^2 - (yr)^2 - (zr)^2
+        // rx = sqrt(r^2 - (yr)^2 - (zr)^2)
+        // x = (sqrt(r^2 - (yr)^2 - (zr)^2))/r
+
+        Vector3 vecPsyHole = transform.TransformPoint(flPsyHoleRadius * .7f, Mathf.Sqrt(Mathf.Pow(flPsyHoleRadius, 2) - Mathf.Pow(0.7f * flPsyHoleRadius, 2) - Mathf.Pow(0.5f * flPsyHoleRadius, 2))/flPsyHoleRadius, flPsyHoleRadius * .5f);
 
         if(!(bTkPushButton || bTkPullButton))
         {
@@ -137,6 +193,8 @@ public class PlayerController : MonoBehaviour
             {
                 if(colsInTk.Contains(hitCol))
                     colsKeepInTk.Add(hitCol);
+                else
+                    continue;
                 
                 Rigidbody rbTk = hitCol.GetComponent<Rigidbody>();
                 Vector3 vecPsyForce = flTkForce * rbTk.mass * (vecPsyHole - hitCol.transform.position).normalized;
@@ -239,5 +297,21 @@ public class PlayerController : MonoBehaviour
                 anim.SetFloat("Forward", 0f, 0.1f, Time.deltaTime);
         }
         anim.SetBool("OnGround", bOnGround);
+    }
+
+    public void ApplyDamage(int iDamage)
+    {
+        if(bDead)
+            return;
+        
+        iHealth -= iDamage;
+        if(iHealth <= 0)
+        {
+            bDead = true;
+            iHealth = 0;
+        }
+        rb.velocity = new Vector3(rb.velocity.x * 0.5f, rb.velocity.y, rb.velocity.z * 0.5f);
+        anim.SetTrigger("TakeDamage");
+        uiHealthBar.value = iHealth/100f;
     }
 }
